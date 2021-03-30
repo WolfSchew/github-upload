@@ -1,1 +1,3 @@
-print('Hello world!')
+file = open("python_text.txt","r")
+text = file.read()
+print(text)
